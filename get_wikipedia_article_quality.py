@@ -32,7 +32,7 @@ def save_to_disk(category_quality_dict, file_name):
         json.dump(category_quality_dict,f)
         
 
-main():
+def main():
     config = configparser.ConfigParser()
     config.read('settings.cfg')
     category = config.get('default', 'category')
