@@ -24,13 +24,24 @@ for (i in nrow(wsme))
   
 }
 
-#qplot(date, data=wsme, weight = edits, geom="histogram", binwidth=1, xlab=theYear)
+qplot(date, data=wsme, geom="histogram", binwidth=1, xlab=theYear)
 
-#ggplot(date, data=wsme,  weight = edits, geom="histogram", binwidth=1) +
+ggplot(date, data=wsme,  weight = edits, geom="histogram", binwidth=1) 
+  + geom_histogram()
 
-ggplot(data=wsme, mapping= aes(x=date, fill=edits, y=edits), group = date) 
+ggplot(data=wsme, mapping=aes(x=date, fill=edits, y=edits)) +
+ geom_jitter() +
+  labs(x="Year and Month ", y="Edits")  +
+  geom_smooth(aes(colour=date)) +
+  ggtitle("Sean's Plot")
 
-+
-  geom_histogram(inherit.aes = TRUE)
+ggplot(data=wsme, mapping=aes(x=date, fill=edits, y=edits)) +
+  geom_line(show.legend = TRUE) +
+  labs(x="Year and Month ", y="Edits")  +
+  geom_smooth(aes(colour=date)) +
+  ggtitle("Sean's Plot") +
+  scale_y_sqrt() +
+  geom_jitter() +
+  geom_text(stat=date)
 
 
