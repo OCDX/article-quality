@@ -14,8 +14,6 @@ def get_page_quality(page_id_set):
             del new_val['timestamp']
             del new_val['page_id']
             page_by_month[i['page_id']][time] = new_val
-        if len(page_by_month) > 3: #to allow us to check code without running through all 400mil lines of wq.real_aq('en')
-            break
     return page_by_month
                 
 def get_page_ids(category, file_name):
