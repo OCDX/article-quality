@@ -16,14 +16,11 @@ def get_page_quality(page_id_set):
             page_by_month[i['page_id']][time] = new_val
     return page_by_month
                 
-def get_page_ids(category, file_name):
+def get_page_ids(category):
     page_id_set = set()
     generator = wq.read_page_ids(category)
     for page in generator:
         page_id_set.add(page['page_id'])
-    with open(file_name, 'w') as f:
-        for page_id in page_id_set:
-            f.write(str(page_id) + '\n')
     return page_id_set
 
 
@@ -38,7 +35,7 @@ def main():
     category = config.get('default', 'category')
     filename = config.get('default', 'filename')
                      
-    page_ids = wq.read_page_ids(category)
+    page_ids = get_page_ids(category)
     page_quality = get_page_quality(page_ids)
     save_to_disk(page_quality, filename)
     
