@@ -1,0 +1,112 @@
+{
+	"manifests": {
+		"manifest": {
+			"standardVersions": "ocdxManifest schema v.1.3",
+			"id": "", 
+			"creator": "Anthony Million", 
+			"dateCreated": "2017-26-02",
+			"comment": "Created at OCDX workshop at CSCW 2017 in Portland, Oregon.", 
+			"researchObject": {
+				"title": "Comparing WikiProject Women Scientists to the Rest of Wikipedia", 
+				"abstract": "", 
+				"dates": {
+					"date": {
+						"date": "2003-12-01", 
+						"label": "Start" 
+					},
+					"date": {
+						"date": "2015-01-01", 
+						"label": "End" 
+					},					
+					"date": {
+						"date": "2016-11-13", 
+						"label": "Created" 
+					}					
+				}
+			},
+			"privacyEthics": {
+				"oversight": { 
+					"label": "No assertion" 
+				}
+			},
+			"informedConsent": "No", 
+			"anonymizedData": { 
+				"label": "No assertion" 
+			},
+			"privacyConsiderations": "No assertion"
+		},		
+		"provenance": {
+			"narrative": "" 
+		},
+		"publications": { 
+			"publication": "No assertion"
+		},
+		"locations": {
+			"location": { 
+				"url": "",
+				"comment": "" 
+			}
+		},		
+		"files": { 
+			"file": {
+				"name": "enwiki.monthly_wiki_quality",  
+				"format": ".tsv",    
+				"size": "17.8 KB", 
+				"url": "data/raw/enwiki.monthly_wiki_quality.tsv",  
+				"checksum": "No assertion" 
+			},
+			"file": {
+				"name": "enwiki.monthly_women_scientist_quality.tsv",  
+				"format": ".tsv",    
+				"size": "14 KB", 
+				"url": "data/raw/enwiki.monthly_women_scientist_quality.tsv",  
+				"checksum": "No assertion" 
+			},
+			"file": {
+				"name": "women-scientists-monthly-edits.csv",  
+				"format": ".csv",    
+				"size": "3.75 KB", 
+				"url": "data/raw/women-scientists-monthly-edits.csv",  
+				"checksum": "No assertion" 
+			},
+			"file": {
+				"name": "women-scientists-monthly-edits.json",  
+				"format": ".json",    
+				"size": "3.75 KB", 
+				"url": "data/raw/women-scientists-monthly-edits.json",  
+				"checksum": "No assertion" 
+			}
+		},		
+		"permissions": "MIT License, Copyright (c) 2016" 
+	},
+	"dates": {
+		"date": { 
+			"date": "2016-11-13" 
+		},
+		"label": "Retrieved" 
+	},
+	"creators": { 
+		"creator": {
+			"name": "Aaron Halfaker", 
+			"role": { 
+				"label": "Primary investigator" 
+				}
+			},
+			"type": {
+				"label": "Individual" 
+			},
+			"contact": "E-mail: ahalfaker@wikimedia.org", 
+			"contact": "GitHub: halfak" 
+			},	
+		"creator": {
+			"name": "Wikimedia Foundation", 
+			"role": { 
+				"label": "Corporate sponsor" 
+				}
+			},
+			"type": {
+				"label": "NGO" 
+			},
+			"contact": "E-mail: info@wikimedia.org" 
+			}	
+}
