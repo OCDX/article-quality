@@ -2,10 +2,10 @@
 	"manifests": {
 		"manifest": {
 			"standardVersions": "ocdxManifest schema v.1.3",
-			"id": "", 
+			"id": "https://github.com/OCDX/article-quality/blob/master/cscw_manifest_women_wiki.json", 
 			"creator": "Anthony Million", 
 			"dateCreated": "2017-26-02",
-			"comment": "Created at OCDX workshop at CSCW 2017 in Portland, Oregon.", 
+			"comment": "Created at OCDX workshop at CSCW 2017 in Portland, Oregon", 
 			"researchObject": {
 				"title": "Comparing WikiProject Women Scientists to the Rest of Wikipedia", 
 				"abstract": "", 
@@ -43,8 +43,8 @@
 		},
 		"locations": {
 			"location": { 
-				"url": "",
-				"comment": "" 
+				"url": "https://github.com/OCDX/article-quality",
+				"comment": "Links to root repository" 
 			}
 		},		
 		"files": { 
