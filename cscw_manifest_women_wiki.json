@@ -56,21 +56,21 @@
 				"checksum": "No assertion" 
 			},
 			"file": {
-				"name": "enwiki.monthly_women_scientist_quality.tsv",  
+				"name": "enwiki.monthly_women_scientist_quality",  
 				"format": ".tsv",    
 				"size": "14 KB", 
 				"url": "data/raw/enwiki.monthly_women_scientist_quality.tsv",  
 				"checksum": "No assertion" 
 			},
 			"file": {
-				"name": "women-scientists-monthly-edits.csv",  
+				"name": "women-scientists-monthly-edits",  
 				"format": ".csv",    
 				"size": "3.75 KB", 
 				"url": "data/raw/women-scientists-monthly-edits.csv",  
 				"checksum": "No assertion" 
 			},
 			"file": {
-				"name": "women-scientists-monthly-edits.json",  
+				"name": "women-scientists-monthly-edits",  
 				"format": ".json",    
 				"size": "3.75 KB", 
 				"url": "data/raw/women-scientists-monthly-edits.json",  
