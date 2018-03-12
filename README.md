@@ -2,6 +2,7 @@ ocdx
 ==============================
 
 Related publication: https://commons.wikimedia.org/wiki/File:Demonstrating_the_Keilana_Effect_(OpenSym%2717).pdf
+Related repo: https://github.com/halfak/keilana-effect
 
 Repository structure for the Open Collaboration Data Exchange
 
